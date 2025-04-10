@@ -16,9 +16,7 @@ Health Level Seven, abbreviated to HL7, is a range of global standards for the
 transfer of clinical and administrative health data between applications with
 the aim to improve patient outcomes and health system performance.
 
-## HL7 version 2 syntax
-
-<https://en.wikipedia.org/wiki/Health_Level_7>
+### HL7 version 2 syntax
 
 HL7 v2.x messages use a non-XML encoding syntax based on segments (lines) and
 one-character delimiters. 
@@ -44,7 +42,7 @@ identifies the message type. The message type determines the expected segment
 types in the message. The segment types used in a particular message type are
 specified by the segment grammar notation used in the HL7 standards.
 
-## HL7 version 2 example
+### HL7 version 2 example
 
 The following is an example of an HL7 v2 admission message. 
 
